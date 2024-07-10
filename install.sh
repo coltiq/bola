@@ -16,6 +16,6 @@ if $RUNNING_GNOME; then
   # Revert to normal settings
   gsettings set org.gnome.desktop.screensaver lock-enabled true
   gsettings set org.gnome.desktop.session idle-delay 300
-fi
 
-source ~/.bashrc
+  gnome-session-quit --logout --no-prompt
+fi
