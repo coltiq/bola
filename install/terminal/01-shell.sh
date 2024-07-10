@@ -1,5 +1,5 @@
 # Configure the bash shell using Bola defaults
-[ -f "~/.bashrc" ] && mv ~/.bashrc ~/.bashrc.bac
+[ -f ~/.bashrc ] && mv ~/.bashrc ~/.bashrc.bac
 cp ~/.local/share/bola/configs/bashrc ~/.bashrc
 
 # Load Path
