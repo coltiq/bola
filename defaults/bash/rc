@@ -1,4 +1,4 @@
-source ~/.local/share/bola/defaults/shell
-source ~/.local/share/bola/defaults/aliases
-source ~/.local/share/bola/defaults/prompt
-source ~/.local/share/bola/defaults/init
+source ~/.local/share/bola/defaults/bash/shell
+source ~/.local/share/bola/defaults/bash/aliases
+source ~/.local/share/bola/defaults/bash/prompt
+source ~/.local/share/bola/defaults/bash/init
