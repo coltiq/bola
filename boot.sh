@@ -23,7 +23,7 @@ sudo apt-get install -y git >/dev/null
 
 echo "Cloning Bola..."
 rm -rf ~/.local/share/bola
-git clone -b main https://github.com/coltiq/bola.git ~/.local/share/bola >dev/null
+git clone https://github.com/coltiq/bola.git ~/.local/share/bola >dev/null
 
 echo "Starting Installation..."
 source ~/.local/share/bola/install.sh
