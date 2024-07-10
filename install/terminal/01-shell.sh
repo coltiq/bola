@@ -5,6 +5,6 @@ cp ~/.local/share/bola/configs/bashrc ~/.bashrc
 # Load Path
 source ~/.local/share/bola/defaults/bash/shell
 
-[ -f "~/.inputrc" ] && mv ~/.inputrc ~/.inputrc.bac
+[ -f ~/.inputrc ] && mv ~/.inputrc ~/.inputrc.bac
 # Configure the inputrc using Bola defaults
 cp ~/.local/share/bola/configs/inputrc ~/.inputrc
