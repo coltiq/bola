@@ -10,4 +10,8 @@ fi
 mkdir ~/.config/git
 
 # Copy default config into folder
-cp ~/.local/share/bola/configs/.gitconfig ~/.config/git/.gitconfig
+cp ~/.local/share/bola/configs/gitconfig ~/.config/git/.gitconfig
+
+# Add Custom Path to .bashrc
+echo 'export GIT_CONFIG=~/.config/git/.gitconfig' >>~/.bashrc
+source ~/.bashrc

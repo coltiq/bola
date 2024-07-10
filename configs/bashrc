@@ -1,0 +1,5 @@
+source ~/.local/share/bola/defaults/bash/rc
+
+# Editor for CLI
+export EDITOR="nvim"
+export SUDO_EDITOR="$EDITOR"
