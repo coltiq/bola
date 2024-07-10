@@ -1,1 +1,2 @@
 source ~/.local/share/bola/defaults/bash/aliases
+source ~/.local/share/bola/defaults/bash/shell
