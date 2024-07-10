@@ -1,1 +1,1 @@
-source $OMAKUB_PATH/bin/bola-menu/menu.sh
+source $BOLA_PATH/bin/bola-menu/menu.sh
