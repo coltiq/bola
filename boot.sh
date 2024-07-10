@@ -22,8 +22,8 @@ sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
 echo "Cloning Bola..."
-#rm -rf ~/.local/share/bola
-#git clone -b stable https://github.com/coltiq/bola.git
+rm -rf ~/.local/share/bola
+git clone -b main https://github.com/coltiq/bola.git
 
 echo "Starting Installation..."
 source ~/.local/share/bola/install.sh
