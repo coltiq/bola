@@ -38,7 +38,7 @@ while true; do
             exec ~/.local/share/bola/bin/bola 
             ;;
         [Nn]* ) 
-            echo "Exiting without starting the Bola app."
+            echo "Exiting without installing Bola."
             exit 0
             ;;
         * ) echo "Please answer yes [y] or no [n].";;
