@@ -1,1 +1,3 @@
+#!/bin/bash
+
 source $BOLA_PATH/bin/bola-menu/menu.sh

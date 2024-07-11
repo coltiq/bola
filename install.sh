@@ -11,7 +11,6 @@ fi
 # Install terminal tools
 echo "Installing terminal tools..."
 source ~/.local/share/bola/install/terminal.sh
-chmod +x ~/.local/share/bola/bin/bola
 
 if $RUNNING_GNOME; then
   # Revert to normal settings
