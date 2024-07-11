@@ -24,3 +24,9 @@ sudo apt-get install -y git >/dev/null
 echo "Cloning Bola..."
 rm -rf ~/.local/share/bola
 git clone https://github.com/coltiq/bola.git ~/bola
+
+cd ~/bola 
+
+go build -o bin/bola cmd/bola/main.go
+
+./bin/bola
