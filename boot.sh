@@ -23,7 +23,7 @@ sudo apt-get install git -y >/dev/null
 
 echo "Downloading Bola..."
 rm -rf ~/.local/share/bola
-git clone https://github.com/coltiq/bola.git ~/.local/share/bola >/dev/null
+git clone https://github.com/coltiq/bola.git ~/.local/share/bola >/dev/null 2>&1
 
 # TESTING ONLY
 mkdir -p ~/.local/share/bola/bin >/dev/null
