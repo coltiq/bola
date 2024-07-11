@@ -16,12 +16,12 @@ ______  ______         ____    _____                _____
 
 echo -e "$ascii_logo"
 echo "=> ONLY for FRESH installations of Ubuntu 24.04"
-echo -e "\nUpdating (ctrl+c to abort)...\n"
+echo -e "\n   Updating (ctrl+c to abort)...\n"
 
 sudo apt-get update >/dev/null
 sudo apt-get install git -y >/dev/null
 
-echo -e "Downloading Bola...\n"
+echo -e "   Downloading Bola...\n"
 rm -rf ~/.local/share/bola
 git clone --quiet https://github.com/coltiq/bola.git ~/.local/share/bola >/dev/null 2>&1
 
@@ -30,6 +30,7 @@ mkdir -p ~/.local/share/bola/bin >/dev/null
 cp /media/sf_bin/bola ~/.local/share/bola/bin/bola >/dev/null
 
 # Prompt user before starting the Go app
+echo -e "   Installation ready...\n"
 while true; do
     read -p "Are you sure you want to start the installation? [y/n]: " yn
     case $yn in
