@@ -34,11 +34,11 @@ echo -e "   Installation ready...\n"
 while true; do
     read -p "Are you sure you want to start the installation? [y/n]: " yn
     case $yn in
-        [Yy]* ) 
+        [Yy] ) 
             # Start Go app 
             exec ~/.local/share/bola/bin/bola 
             ;;
-        [Nn]* ) 
+        [Nn] ) 
             echo "Exiting without installing Bola."
             exit 0
             ;;
