@@ -35,5 +35,3 @@ cp /media/sf_bin/bola ~/.local/share/bola/bin/bola >/dev/null
 echo -e "   Installation ready...\n"
 read -p "Are you sure you want to start the installation? [y/n]: " yn
 echo $yn
-
-
