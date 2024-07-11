@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"path/filepath"
 
 	"github.com/coltiq/bola/util"
 )
 
 func main() {
 	// Path to install script
-	installScript := "scripts/install.sh"
+	installScript := filepath.Join("scripts", "install.sh")
 	// Run
 	err := util.RunScript(installScript)
 	if err != nil {
