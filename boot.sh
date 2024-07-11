@@ -11,4 +11,4 @@ mkdir -p ~/.local/share/bola/bin
 cp /media/sf_bin/bola ~/.local/share/bola/bin/bola
 
 # Start Go app
-$"~/.local/share/bola/bin/bola"
+exec ~/.local/share/bola/bin/bola
