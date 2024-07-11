@@ -1,3 +1,4 @@
+set -e
 # Alacritty terminal: https://alacritty.org/
 sudo apt install -y alacritty
 mkdir -p ~/.config/alacritty
