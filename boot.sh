@@ -35,16 +35,6 @@ cp /media/sf_bin/bola ~/.local/share/bola/bin/bola >/dev/null
 echo -e "   Installation ready...\n"
 while true; do
     read -p "Are you sure you want to start the installation? [y/n]: " yn
-    case $yn in
-        [Yy]* ) 
-            # Start Go app 
-            exec ~/.local/share/bola/bin/bola 
-            ;;
-        [Nn]* ) 
-            echo "Exiting without installing Bola."
-            exit 0
-            ;;
-        * ) echo "Please answer yes [y] or no [n].";;
-    esac
+    echo $yn
 done
 
