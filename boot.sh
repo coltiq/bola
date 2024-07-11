@@ -29,5 +29,19 @@ git clone --quiet https://github.com/coltiq/bola.git ~/.local/share/bola >/dev/n
 mkdir -p ~/.local/share/bola/bin >/dev/null
 cp /media/sf_bin/bola ~/.local/share/bola/bin/bola >/dev/null
 
-# Start Go app
-exec ~/.local/share/bola/bin/bola 
+# Prompt user before starting the Go app
+while true; do
+    read -p "Are you sure you want to start the installation? [y/n]: " yn
+    case $yn in
+        [Yy]* ) 
+            # Start Go app 
+            exec ~/.local/share/bola/bin/bola 
+            ;;
+        [Nn]* ) 
+            echo "Exiting without starting the Bola app."
+            exit 0
+            ;;
+        * ) echo "Please answer yes [y] or no [n].";;
+    esac
+done
+
