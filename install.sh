@@ -13,9 +13,11 @@ echo "Installing terminal tools..."
 source ~/.local/share/bola/install/terminal.sh
 
 if $RUNNING_GNOME; then
+  source ~/.local/share/bola/install/gui.sh
+
   # Revert to normal settings
   gsettings set org.gnome.desktop.screensaver lock-enabled true
   gsettings set org.gnome.desktop.session idle-delay 300
-
-  gnome-session-quit --reboot --no-prompt
 fi
+
+gnome-session-quit --reboot --no-prompt
