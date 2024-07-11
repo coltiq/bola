@@ -8,4 +8,4 @@ git clone https://github.com/coltiq/bola.git ~/.local/share/bola >/dev/null
 
 # TESTING ONLY
 mkdir -p "~/.local/share/bola/bin"
-cp /media/sf_bin/bola ~/.local/share/bola/bin/bola
+#cp /media/sf_bin/bola ~/.local/share/bola/bin/bola
