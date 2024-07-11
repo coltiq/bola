@@ -11,7 +11,7 @@ import (
 
 func main() {
 	// Check if program is running for the first time
-	markerFilePath := filepath.Join("~", ".local", "share", "bola", "configs", ".bola_marker")
+	markerFilePath := filepath.Join(os.Getenv("HOME"), ".local", "share", "bola", "configs", ".bola_marker")
 
 	// First time
 	if !util.FileExists(markerFilePath) {
