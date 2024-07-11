@@ -9,4 +9,3 @@ for installer in ~/.local/share/bola/install/gui/*.sh; do source $installer; don
 gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.session idle-delay 300
 
-gnome-session-quit --reboot --no-prompt
