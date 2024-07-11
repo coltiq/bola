@@ -21,7 +21,7 @@ echo -e "\nUpdating (ctrl+c to abort)...\n"
 sudo apt-get update >/dev/null
 sudo apt-get install git -y >/dev/null
 
-echo "Downloading Bola..."
+echo -e "Downloading Bola...\n"
 rm -rf ~/.local/share/bola
 git clone --quiet https://github.com/coltiq/bola.git ~/.local/share/bola >/dev/null 2>&1
 
